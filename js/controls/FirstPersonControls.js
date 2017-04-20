@@ -143,10 +143,10 @@ THREE.FirstPersonControls = function ( object, domElement ) {
 		switch ( event.keyCode ) {
 
 			case 38: /*up*/
-			case 87: /*W*/ this.moveForward = true; break;
+			case 90: /*Z*/ this.moveForward = true; break;
 
 			case 37: /*left*/
-			case 65: /*A*/ this.moveLeft = true; break;
+			case 81: /*Q*/ this.moveLeft = true; break;
 
 			case 40: /*down*/
 			case 83: /*S*/ this.moveBackward = true; break;
@@ -168,10 +168,10 @@ THREE.FirstPersonControls = function ( object, domElement ) {
 		switch( event.keyCode ) {
 
 			case 38: /*up*/
-			case 87: /*W*/ this.moveForward = false; break;
+			case 90: /*Z*/ this.moveForward = false; break;
 
 			case 37: /*left*/
-			case 65: /*A*/ this.moveLeft = false; break;
+			case 81: /*Q*/ this.moveLeft = false; break;
 
 			case 40: /*down*/
 			case 83: /*S*/ this.moveBackward = false; break;
